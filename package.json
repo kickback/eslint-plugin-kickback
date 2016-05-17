@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-kickback",
+  "version": "0.0.0",
+  "description": "Kickback's ESlint rules for Ember",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Jake Shamash",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "babel-eslint": "^6.0.4",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "~2.6.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}

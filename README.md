@@ -12,11 +12,17 @@ $ npm i eslint --save-dev
 
 Next, install `eslint-plugin-kickback`:
 
+**For a local version of eslint**
 ```
 $ npm install eslint-plugin-kickback --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-kickback` globally.
+**For a global installation of eslint**
+```
+$ sudo npm install -g git+https://githubUsername:password@github.com/kickback/eslint-plugin-kickback.git
+```
+- If you're using  2FA for github (which you should be), you'll need to use a [personal access token](https://help.github.com/articles/creating-an-access-token-for-command-line-use/)
+- You can use ssh for this, but sudo will make it a bit more difficult to pass in the ssh key properly, so usually its easier to go with access tokens 
 
 ## Usage
 
